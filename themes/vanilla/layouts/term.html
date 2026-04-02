@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="max-w-3xl mx-auto pt-6 space-y-6">
+  <h1 class="text-2xl font-bold text-my-ultramarine">分类：{{ .Title }}</h1>
+
+  {{ range .Pages }}
+  <article class="border-b border-gray-200 pb-4">
+    <h2 class="text-xl text-my-ultramarine hover:underline">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+    <div class="text-sm text-gray-500">{{ .Date.Format "2006-01-02" }}</div>
+    <p class="text-sm text-gray-700 line-clamp-2">{{ .Summary }}</p>
+  </article>
+  {{ end }}
+</section>
+{{ end }}

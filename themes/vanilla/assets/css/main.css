@@ -1,0 +1,37 @@
+@config "../../../../tailwind.config.js";
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+.noto-serif-sc-bold {
+    font-family: "Noto Serif SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.noto-serif-sc-regular {
+    font-family: "Noto Serif SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .my-ultramarine { */
+/*     color: #00387b; */
+/* } */
+
+/* .my-pink { */
+/*     color: #d77ab2; */
+/* } */
+
+/* .my-sakura { */
+/*     color: #f4ced8; */
+/* } */
+
+@theme {
+    --color-my-ultramarine: #00387b;
+    --color-my-pink: #d77ab2;
+    --color-my-sakura: #f4ced8;
+    --font-sans: "Noto Sans", "Noto Sans SC", sans-serif;
+    --font-serif: "Noto Serif", "Noto Serif SC", serif;
+}

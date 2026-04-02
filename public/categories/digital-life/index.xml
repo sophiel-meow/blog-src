@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Life on 無何有之鄉</title>
+    <link>http://localhost:1313/categories/digital-life/</link>
+    <description>Recent content in Digital Life on 無何有之鄉</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jun 2025 16:59:14 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/digital-life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>私语·信任·数字自由</title>
+      <link>http://localhost:1313/posts/privacy_gpg/</link>
+      <pubDate>Wed, 18 Jun 2025 16:59:14 +0800</pubDate>
+      <guid>http://localhost:1313/posts/privacy_gpg/</guid>
+      <description>[摘要] 本文以一段亲身经历切入，探讨了数字时代隐私权的重要性，并从技术层面系统性地介绍了非对称加密与OpenPGP/GPG的基本原理与应用场景。通过对密码学发展历程的回顾，以及对GPG核心功能（认证、签名、加密、身份验证）的解析，文章旨在说明：隐私并非「敏感人群」的特权，而是数字时代每个人应当主动掌握的基本权利。适合对数字安全、密码学应用感兴趣的读者参考。</description>
+    </item>
+  </channel>
+</rss>

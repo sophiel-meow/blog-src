@@ -1,0 +1,25 @@
+<blockquote
+  style="
+    border-left: 4px solid #d77ab2;
+    background: #f4ced855;
+    padding: 1em 1.2em;
+    margin: 1.5em 0;
+    font-style: italic;
+    color: #00387b;
+    border-radius: 0.75em;
+  "
+>
+  {{ .Inner | markdownify }} {{ with .Get "by" }}
+  <br />
+  <span
+    style="
+      display: block;
+      text-align: right;
+      margin-top: 0.5em;
+      font-size: 0.9em;
+      color: var(--color-my-pink);
+    "
+    >—— {{ . }}</span
+  >
+  {{ end }}
+</blockquote>

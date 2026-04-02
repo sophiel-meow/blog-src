@@ -1,0 +1,23 @@
+<!doctype html>
+<html
+  lang="{{ site.Language.LanguageCode }}"
+  dir="{{ or site.Language.LanguageDirection `ltr` }}"
+>
+  {{ if .Param "math" }} {{ partialCached "math.html" . }} {{ end }} {{ partial
+  "head.html" . }}
+  <body class="bg-[#F8FBFF] text-gray-800 font-serif">
+    <!-- 背景叠层 -->
+    <!-- <div class="fixed inset-0 -z-10">
+         <img src="{{ "https://www.zzy040330.moe/wp-content/themes/argon/assets/img/background.webp" | relURL }}" class="w-full h-full object-cover" alt="背景">
+         <div class="absolute inset-0 bg-white/30"></div>
+         </div>
+    -->
+    <div class="flex min-h-screen max-w-screen-2xl mx-auto">
+      <!-- 左侧栏 -->
+      {{ partial "sidebar.html" . }}
+
+      <!-- 右侧主内容 -->
+      <main class="flex-1 px-6 py-12">{{ block "main" . }}{{ end }}</main>
+    </div>
+  </body>
+</html>

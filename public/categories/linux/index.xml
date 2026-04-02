@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on 無何有之鄉</title>
+    <link>http://localhost:1313/categories/linux/</link>
+    <description>Recent content in Linux on 無何有之鄉</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Dec 2022 17:28:41 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implemention of Free Multifunctional Software Router</title>
+      <link>http://localhost:1313/posts/celosia/</link>
+      <pubDate>Sun, 11 Dec 2022 17:28:41 +0800</pubDate>
+      <guid>http://localhost:1313/posts/celosia/</guid>
+      <description>[Abstract] This project endeavors to research the realization of a fully customizable, liberated, unbounded, and autonomously controllable home network environment through the creation of an open-source home edge router. Leveraging personal computers built on the Intel x86 platform and the Red Hat Enterprise Linux operating system, we&amp;rsquo;ve attained an open, liberated, and multifaceted home edge router. Consequently, a comprehensive home LAN system has been established.</description>
+    </item>
+  </channel>
+</rss>

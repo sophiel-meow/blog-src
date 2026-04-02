@@ -1,0 +1,31 @@
+<div class="flex justify-center my-12 gap-2">
+  {{ if .Paginator.HasPrev }}
+  <a
+    href="{{ .Paginator.Prev.URL }}"
+    class="rounded-full w-9 h-9 bg-my-ultramarine/90 text-white shadow hover:scale-105 transition flex items-center justify-center"
+  >
+    ←
+  </a>
+  {{ end }} {{ range .Paginator.Pagers }} {{ if eq .PageNumber
+  $.Paginator.PageNumber }}
+  <span
+    class="w-9 h-9 rounded-full bg-my-pink text-white shadow flex items-center justify-center"
+  >
+    {{ .PageNumber }}
+  </span>
+  {{ else }}
+  <a
+    href="{{ .URL }}"
+    class="w-9 h-9 rounded-full border border-my-ultramarine/40 text-my-ultramarine hover:bg-my-ultramarine/10 transition flex items-center justify-center"
+  >
+    {{ .PageNumber }}
+  </a>
+  {{ end }} {{ end }} {{ if .Paginator.HasNext }}
+  <a
+    href="{{ .Paginator.Next.URL }}"
+    class="rounded-full w-9 h-9 bg-my-ultramarine/90 text-white shadow hover:scale-105 transition flex items-center justify-center"
+  >
+    →
+  </a>
+  {{ end }}
+</div>

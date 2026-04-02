@@ -1,0 +1,13 @@
+{{/* @context: .taxonomy (string), .page (Page) */}} {{- $page := .page -}} {{-
+$taxonomy := .taxonomy -}} {{- with $page.GetTerms $taxonomy }}
+<div class="mt-8 flex flex-wrap gap-2 text-sm">
+  {{- range . }}
+  <a
+    href="{{ .RelPermalink }}"
+    class="px-3 py-1 rounded-full bg-my-ultramarine/10 text-my-ultramarine hover:bg-my-ultramarine/20 transition"
+  >
+    #{{ .LinkTitle }}
+  </a>
+  {{- end }}
+</div>
+{{- end }}

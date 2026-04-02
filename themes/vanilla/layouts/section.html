@@ -1,0 +1,52 @@
+{{ define "main" }}
+<section class="max-w-3xl mx-auto py-12">
+  <h1 class="text-3xl font-bold text-my-ultramarine mb-4">{{ .Title }}</h1>
+
+  {{ with .Content }}
+    <div class="prose text-gray-700 mb-8">{{ . }}</div>
+  {{ end }}
+
+  {{ range (.Paginator 10).Pages.GroupByDate "2006" }}
+    <div class="mb-10">
+      <h2 class="text-2xl font-semibold text-my-pink mb-4 border-b border-gray-200 pb-1">{{ .Key }} 年</h2>
+
+      <ul class="space-y-4">
+        {{ range .Pages }}
+          <li class="flex items-start gap-4">
+            <!-- 日期 -->
+            <span class="w-16 text-sm text-gray-500 font-serif mt-1">
+              {{ .Date.Format "01-02" }}
+            </span>
+
+            <!-- 文章内容 -->
+            <div class="flex-1">
+              <h3 class="text-lg font-medium text-my-ultramarine hover:underline">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h3>
+
+              {{ with .Params.description }}
+                <p class="text-sm text-gray-600 mt-1">{{ . }}</p>
+              {{ else }}
+                <p class="text-sm text-gray-600 mt-1">{{ .Summary }}</p>
+              {{ end }}
+
+              {{ with .Params.tags }}
+                <div class="mt-1 text-sm space-x-1">
+                  {{ range . }}
+                    <a href="{{ "/tags/" | relURL }}{{ . | urlize }}"
+                       class="text-my-pink hover:underline">#{{ . }}</a>
+                  {{ end }}
+                </div>
+              {{ end }}
+            </div>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+
+  <div class="pt-10">
+    {{ partial "pagination.html" . }}
+  </div>
+</section>
+{{ end }}

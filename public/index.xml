@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>無何有之鄉</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 無何有之鄉</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jun 2025 16:59:14 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>私语·信任·数字自由</title>
+      <link>http://localhost:1313/posts/privacy_gpg/</link>
+      <pubDate>Wed, 18 Jun 2025 16:59:14 +0800</pubDate>
+      <guid>http://localhost:1313/posts/privacy_gpg/</guid>
+      <description>[摘要] 本文以一段亲身经历切入，探讨了数字时代隐私权的重要性，并从技术层面系统性地介绍了非对称加密与OpenPGP/GPG的基本原理与应用场景。通过对密码学发展历程的回顾，以及对GPG核心功能（认证、签名、加密、身份验证）的解析，文章旨在说明：隐私并非「敏感人群」的特权，而是数字时代每个人应当主动掌握的基本权利。适合对数字安全、密码学应用感兴趣的读者参考。</description>
+    </item>
+    <item>
+      <title>Minutes of Linux Kernel Contribution</title>
+      <link>http://localhost:1313/posts/patchwork/</link>
+      <pubDate>Sat, 17 Dec 2022 16:13:01 +0800</pubDate>
+      <guid>http://localhost:1313/posts/patchwork/</guid>
+      <description>[Abstract] Contributing to Linux mainline code via email with Git, Patchwork and other systems.</description>
+    </item>
+    <item>
+      <title>Implemention of Free Multifunctional Software Router</title>
+      <link>http://localhost:1313/posts/celosia/</link>
+      <pubDate>Sun, 11 Dec 2022 17:28:41 +0800</pubDate>
+      <guid>http://localhost:1313/posts/celosia/</guid>
+      <description>[Abstract] This project endeavors to research the realization of a fully customizable, liberated, unbounded, and autonomously controllable home network environment through the creation of an open-source home edge router. Leveraging personal computers built on the Intel x86 platform and the Red Hat Enterprise Linux operating system, we&amp;rsquo;ve attained an open, liberated, and multifaceted home edge router. Consequently, a comprehensive home LAN system has been established.</description>
+    </item>
+    <item>
+      <title>Researching on the Analytic Hierarchy Process</title>
+      <link>http://localhost:1313/posts/ahp/</link>
+      <pubDate>Thu, 29 Sep 2022 10:44:39 +0800</pubDate>
+      <guid>http://localhost:1313/posts/ahp/</guid>
+      <description>[Abstract] The Analytic Hierarchy Process (AHP) is a decision analysis method that combines qualitative and quantitative aspects to tackle complex multi-objective problems. It integrates quantitative and qualitative analyses, enabling decision-makers to assess the relative importance of various criteria for achieving objectives based on their experience. AHP assigns appropriate weights to each criterion of every decision alternative and utilizes these weights to determine the superiority or inferiority of each alternative, making it particularly effective for addressing issues that are challenging to resolve using purely quantitative methods.</description>
+    </item>
+    <item>
+      <title>Simple Open Source Security Key</title>
+      <link>http://localhost:1313/posts/opensk/</link>
+      <pubDate>Fri, 12 Aug 2022 13:23:26 +0800</pubDate>
+      <guid>http://localhost:1313/posts/opensk/</guid>
+      <description>[Abstract] Using the Nordic nRF52840 Dongle development board in conjunction with the Google OpenSK project, creating an open-source, physical security key that supports the U2F FIDO and FIDO2 standards.</description>
+    </item>
+    <item>
+      <title>Evaluating iPhone SE 2022</title>
+      <link>http://localhost:1313/posts/evaluating_iphone_se_2022/</link>
+      <pubDate>Wed, 13 Jul 2022 16:03:51 +0800</pubDate>
+      <guid>http://localhost:1313/posts/evaluating_iphone_se_2022/</guid>
+      <description>Evaluating iPhone SE 2022</description>
+    </item>
+    <item>
+      <title>Lenovo_Tab4_8_REL非常状态下修复办法</title>
+      <link>http://localhost:1313/posts/lenovo_tab4_8_rel/</link>
+      <pubDate>Wed, 19 Aug 2020 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/lenovo_tab4_8_rel/</guid>
+      <description>[Abstract] 在bootloader遭篡改等无法使用fastboot及recovery的情况下，不经过bootloader，使用EDL对Lenovo Tab4 8（Lenovo TB-8X04F）进行操作系统恢复。</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

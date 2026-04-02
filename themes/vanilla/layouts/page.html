@@ -1,0 +1,49 @@
+{{ define "main" }}
+<article class="max-w-3xl mx-auto text-base leading-relaxed">
+  <!-- 文章头部 -->
+  <header class="mb-10">
+    <!-- 日期 -->
+    <p class="text-sm text-gray-500">{{ .Date.Format "2006-01-02 15:04" }}</p>
+
+    <!-- 标题 -->
+    <h1 class="text-4xl font-bold text-my-ultramarine tracking-tight my-2">
+      {{ .Title }}
+    </h1>
+
+    <!-- 副标题（可选） -->
+    {{ with .Params.subtitle }}
+    <p class="text-lg text-gray-600">{{ . }}</p>
+    {{ end }}
+
+    <!-- 摘要 -->
+    {{ with .Params.summary }}
+    <p class="mt-4 text-gray-700 border-l-4 border-my-ultramarine pl-4">
+      <!-- <span class="font-semibold not-italic">摘要：</span> -->{{ . }}
+    </p>
+    {{ end }}
+
+    <!-- 关键词 -->
+    {{ with .Params.keywords }}
+    <div class="flex flex-wrap gap-2 mt-3">
+      <span class="text-gray-700">Keywords: </span>
+      {{ range . }}
+      <span
+        class="px-3 py-1 rounded-full bg-my-ultramarine/10 text-my-ultramarine text-xs tracking-wide"
+      >
+        {{ . }}
+      </span>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- 分割线 -->
+    <hr class="mt-6 border-[#a0c4ff]" />
+  </header>
+
+  <!-- 正文 -->
+  <div class="prose prose-indigo max-w-none">{{ .Content }}</div>
+
+  <!-- 标签 / 分类 -->
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</article>
+{{ end }}

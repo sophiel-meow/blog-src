@@ -1,0 +1,51 @@
+<head>
+  <meta charset="utf-8" />
+  <title>
+    {{ if .IsHome }}首页 - {{ else }}{{ if .Page.Title }}{{ .Page.Title }} - {{
+    end }}{{ end }}{{ .Site.Title }}
+  </title>
+  <meta
+    name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}Sophielの博客～技术与随笔的可爱小站~{{ end }}"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <script src="https://cdn.jsdelivr.net/npm/google-fonts@1.0.0/index.min.js"></script>
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+SC:wght@600&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/out.css" type="text/css" />
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+  <!-- <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+       <script>
+       tailwind.config = {
+       theme: {
+       extend: {
+       fontFamily: {
+       serif: ['"Noto Serif"', '"Noto Serif SC"', "serif"],
+       sans: ['"Noto Sans"', '"Noto Sans SC"', "sans-serif"],
+       },
+       colors: {
+       "my-ultramarine": "#00387B",
+       "my-pink": "#d77ab2",
+       "my-sakura": "#f4ced8",
+       },
+       },
+       },
+       };
+       </script>
+  -->
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  {{ partial "head/css.html" . }} {{ partial "head/js.html" . }}
+</head>

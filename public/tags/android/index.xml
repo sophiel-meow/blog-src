@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on 無何有之鄉</title>
+    <link>http://localhost:1313/tags/android/</link>
+    <description>Recent content in Android on 無何有之鄉</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Aug 2020 12:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lenovo_Tab4_8_REL非常状态下修复办法</title>
+      <link>http://localhost:1313/posts/lenovo_tab4_8_rel/</link>
+      <pubDate>Wed, 19 Aug 2020 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/lenovo_tab4_8_rel/</guid>
+      <description>[Abstract] 在bootloader遭篡改等无法使用fastboot及recovery的情况下，不经过bootloader，使用EDL对Lenovo Tab4 8（Lenovo TB-8X04F）进行操作系统恢复。</description>
+    </item>
+  </channel>
+</rss>

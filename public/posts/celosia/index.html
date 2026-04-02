@@ -1,0 +1,358 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr"
+>
+   <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [
+        ["\\[", "\\]"],
+        ["$$", "$$"],
+      ], 
+      inlineMath: [["\\(", "\\)"]], 
+    },
+    loader: {
+      load: ["ui/safe"],
+    },
+  };
+</script>
+  <head>
+  <meta charset="utf-8" />
+  <title>
+    Implemention of Free Multifunctional Software Router - 無何有之鄉
+  </title>
+  <meta
+    name="description"
+    content="Sophielの博客～技术与随笔的可爱小站~"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <script src="https://cdn.jsdelivr.net/npm/google-fonts@1.0.0/index.min.js"></script>
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+SC:wght@600&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/out.css" type="text/css" />
+  
+  
+  
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  
+<link rel="stylesheet" href="/css/main.css" />
+ 
+      <script src="/js/main.js"></script>
+
+</head>
+
+  <body class="bg-[#F8FBFF] text-gray-800 font-serif">
+    
+    
+    <div class="flex min-h-screen max-w-screen-2xl mx-auto">
+      
+      <aside
+  class="w-64 px-4 py-8 flex flex-col justify-between h-screen sticky top-0"
+>
+  <div class="space-y-6">
+    <div>
+      <h3 class="text-base tracking-wide mb-2 font-bold">
+        <span class="font-serif text-my-ultramarine">zzy040330.</span
+        ><span class="font-sans text-my-pink">萌え</span>
+      </h3>
+
+      <h1 class="text-4xl text-my-ultramarine tracking-wide mb-2 font-bold">
+        無何有之鄉
+      </h1>
+      <p class="text-base text-gray-500">~本来无一物 何处惹尘埃~</p>
+    </div>
+
+    <nav class="text-xl space-y-2 text-my-ultramarine font-medium">
+      <a href="/" class="block hover:text-my-pink">首页</a>
+      <a href="/categories/" class="block hover:text-my-pink">分类</a>
+      <a href="/tags/" class="block hover:text-my-pink">标签</a>
+      <a href="/posts/" class="block hover:text-my-pink">归档</a>
+      <a href="/about/" class="block hover:text-my-pink">关于</a>
+    </nav>
+
+    <a
+      href="/index.xml"
+      class="block text-sm text-my-ultramarine hover:text-my-pink"
+      ><i class="fa-solid fa-rss"></i> RSS 订阅
+    </a>
+
+    <div class="text-lg mt-6 border-t border-gray-200 pt-4 text-sm space-y-2">
+      <a
+        href="https://orcid.org/0000-0002-7017-5397"
+        class="flex gap-2 text-my-ultramarine hover:text-my-pink"
+      >
+        <i class="fa-brands fa-orcid"></i> ORCID
+      </a>
+      <a
+        href="https://www.researchgate.net/profile/Ziyu-Zhou-36"
+        class="flex gap-2 text-my-ultramarine hover:text-my-pink"
+      >
+        <i class="fa-brands fa-researchgate"></i> ResearchGate
+      </a>
+      <a
+        href="https://github.com/sophiel-meow"
+        class="flex gap-2 text-my-ultramarine hover:text-my-pink"
+      >
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+      <a
+        href="mailto:zzy040330@ieee.org"
+        class="flex gap-2 text-my-ultramarine hover:text-my-pink"
+      >
+        <i class="fa-solid fa-envelope"></i> 学术邮箱
+      </a>
+      <a
+        href="mailto:jun@zzy040330.moe"
+        class="flex gap-2 text-my-ultramarine hover:text-my-pink"
+      >
+        <i class="fa-solid fa-envelope"></i> 个人邮箱
+      </a>
+      <a
+        href="/ziyu_zhou_pubkey.gpg"
+        class="flex gap-2 text-my-ultramarine hover:text-my-pink"
+      >
+        <i class="fa-solid fa-key"></i> GPG 公钥
+      </a>
+    </div>
+  </div>
+
+  <footer class="text-xs text-gray-400 pt-6 border-t border-gray-200 mt-12">
+    <p class="leading-relaxed">
+      © 2013-2025 無何有之鄉 <br />
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+        >Licensed under CC BY-SA 4.0</a
+      ><br />
+      Designed by Sophiel & Alice.
+    </p>
+  </footer>
+</aside>
+
+
+      
+      <main class="flex-1 px-6 py-12">
+<article class="max-w-3xl mx-auto text-base leading-relaxed">
+  
+  <header class="mb-10">
+    
+    <p class="text-sm text-gray-500">2022-12-11 17:28</p>
+
+    
+    <h1 class="text-4xl font-bold text-my-ultramarine tracking-tight my-2">
+      Implemention of Free Multifunctional Software Router
+    </h1>
+
+    
+    
+    <p class="text-lg text-gray-600">~&#34;Celosia&#34; is all you need!~</p>
+    
+
+    
+    
+    <p class="mt-4 text-gray-700 border-l-4 border-my-ultramarine pl-4">
+      [Abstract] This project endeavors to research the realization of a fully customizable, liberated, unbounded, and autonomously controllable home network environment through the creation of an open-source home edge router. Leveraging personal computers built on the Intel x86 platform and the Red Hat Enterprise Linux operating system, we&#39;ve attained an open, liberated, and multifaceted home edge router. Consequently, a comprehensive home LAN system has been established.
+    </p>
+    
+
+    
+    
+    <div class="flex flex-wrap gap-2 mt-3">
+      <span class="text-gray-700">Keywords: </span>
+      
+      <span
+        class="px-3 py-1 rounded-full bg-my-ultramarine/10 text-my-ultramarine text-xs tracking-wide"
+      >
+        DevOps
+      </span>
+      
+      <span
+        class="px-3 py-1 rounded-full bg-my-ultramarine/10 text-my-ultramarine text-xs tracking-wide"
+      >
+        Linux
+      </span>
+      
+      <span
+        class="px-3 py-1 rounded-full bg-my-ultramarine/10 text-my-ultramarine text-xs tracking-wide"
+      >
+        Software Router
+      </span>
+      
+    </div>
+    
+
+    
+    <hr class="mt-6 border-[#a0c4ff]" />
+  </header>
+
+  
+  <div class="prose prose-indigo max-w-none"><h3>序</h3>
+<hr>
+<p>  随着信息技术的发展、高带宽光纤网路技术的普及，家中的网络接入已经升级成千兆级别的光纤宽带接入，踏上了实打实的“信息高速公路”。然而，由于技术专利等限制、巩固市场占有等原因，近些年网络设备的价格普遍较高；且基本是闭源的，在其安全性受到质疑的同时，也及大程度上降低了提供给用户的权限与可操作性。
+<br />
+  鉴于此，此项目以构建开源的家用边缘路由器为手段，以实现完全客制化的、自由的、无限制的、可自主控制的家用网络环境为目的进行研究。基于Intel x86平台的个人电脑与Red Hat Enterprise Linux操作系统实现了开源、自由的、多功能的家用边缘路由器；并因此组建完整的家用局域网络系统。</p>
+<h3>一、硬件选择与配置</h3>
+<hr>
+<p>  由于作为边缘路由器置于弱电箱附近，需要较小的体积，同时考虑到一般x86架构的性能对于路由器来说足够，且要尽可能地压缩成本，故然选择家中原有的技嘉H77N-WIFI主板、Intel Core i5-3470处理器，并配有12GB的DDR3内存。该主板为ITX板形，体积较小，且本身带有两个千兆全双工网络接口，满足路由器需求。
+<br />
+  同时考虑到该设备可用作NAS等服务器，故在配备120GB固态硬盘作为系统盘之外，另外安装一块2TB机械硬盘作为数据盘。
+<br />
+  除部分无线接入点以外的其它网络设备皆选用支持千兆全双工的型号，网线使用超五类或六类网线。在边缘路由器后端通过千兆PoE交换机连接至其它以太网设备与无线接入点。光纤调制解调器为使用闭源芯片的运营商定制产品，此处无法进行相关研究；为了最大程度上避免因闭源产生的隐私泄漏，该调制解调器被配置为桥接模式，通过路由器进行PPPoE拨号连接广域网。
+<br />
+<img src="switch.jpeg" alt="switch">
+<img src="case.jpeg" alt="case">
+<br />
+<br /></p>
+<h3>二、操作系统部署与配置</h3>
+<hr>
+<p>  考虑到作为路由器与服务器使用需要极高的稳定性，以开源、自由为第一前提，最终选用Red Hat Enterprise Linux作为操作系统（当前版本为9.1）。该操作系统对服务器的支持良好，且生命周期长。
+<br />
+  从网络上下载最新版本的RHEL安装映像并写入驱动器。在服务器上通过USB UEFI引导进入预安装环境。安装时可借用其它网络进行Red Hat账户注册；更改主机名，选择固态硬盘作为安装盘。在安装环境选项中选择安装Server版本，同时在右侧选择附加软件包。
+<br />
+<img src="register.jpeg" alt="register">
+<img src="software.jpeg" alt="software">
+<br />
+  待安装完成后进入系统借用其它网络或使用安装盘中的软件源安装NetworkManager-ppp与NetworkManager-wifi软件包。其二者分别为NetworkManager对点对点协议与WIFI协议的支持。其后，启动NetworkManager服务，使用nmtui或nmcli进行PPPoE拨号设置与局域网网口的、静态IP配置。按个人习惯，关闭SELinux避免发生不测。
+<br />
+<img src="nm-esp3s0.png" alt="nm-esp3s0">
+<img src="nm.png" alt="nm">
+<br />
+  此时可从同一网络内的终端设备通过ssh远程连接路由器，由于没有设置dhcp，此时终端设备需要手动设置IP地址。
+<br />
+<img src="manual-ip.png" alt="manual-ip">
+<br />
+  从软件源中下载epel仓库rpm安装包并安装，以启用epel仓库，同时根据提示启用crb仓库，即可获取更多的软件安装途径。
+<br />
+<img src="epel.png" alt="epel">
+<br />
+  启用firewalld防火墙，并配置路由转发（外网区域命名为drop）。内网网卡为esp3s0，外网网卡为esp2s0，拨号后生成的虚拟设备为ppp0。
+<br />
+  <code>sudo firewall-cmd --zone=drop --add-masquerade --permanent</code>
+<br />
+  同时允许内网访问服务器。
+<br />
+  <code>sudo firewall-cmd --zone=trusted --add-interface=esp3s0 --permanent</code>
+<br />
+  此后使用systemd或firewall-cmd重启防火墙，并查看配置结果。
+<br />
+<img src="zones.png" alt="zones">
+<img src="listall.png" alt="listall">
+<br />
+  为了启用内核的路由功能，使用sysctl实现。以文本编辑器打开/etc/sysctl.conf并写入：
+<br />
+  <code>net.ipv4.ip_forward=1</code>
+<br />
+  后使用<code>sudo sysctl -p</code>读取设置。
+<br />
+  此时该设备已经具备了基本的路由功能，下一步将安装DHCP、samba等各类实用性服务。</p>
+<br />
+<br />
+<h3>三、实用性服务部署</h3>
+<hr>
+<p>  首先根据提示使用systemd启用cockpit服务。该服务是基于Web GUI的维护操作面板，功能较为完善。
+<br />
+<img src="overview.png" alt="overview">
+<img src="selinux.png" alt="selinux">
+<br />
+  在使用fstab挂载数据盘并部署samba服务。由于数据盘使用了NTFS文件系统，故此处需要安装NTFS相关软件包。
+<br />
+<img src="fstab.png" alt="fstab">
+<br />
+  <code>sudo dnf install ntfs-3g ntfsprogs</code>
+<br />
+  然后编辑fstab文件，通过分区号或UUID挂载分区。
+<br />
+  由于在操作系统安装阶段已经安装了samba服务，此时直接添加用户、修改smb配置文件并通过systemd启动服务即可。此处默认所有服务面向局域网内部，固然防火墙皆放行。
+<br />
+  为实现局域网内终端IP地址的自动分配，需要安装DHCP服务。使用dnf安装：
+<br />
+  <code>sudo dnf install dhcp-server</code>
+<br />
+  安装后进行配置。其位于/usr/share/doc/中的文档中有配置文件的示例，照此配置各网段的dhcp信息。然后通过systemd启动服务。
+<br />
+<img src="dhcp-conf.png" alt="dhcp-conf">
+<br />
+  最后安装AD Guard Home防火墙及广告屏蔽服务。该服务使用DNS重写技术，充当DNS服务器使用，在能够屏蔽各类广告、有害网站的同时有效避免DNS污染，优化家庭、网络环境。
+<br />
+  按照GitHub仓库中的说明文档，使用如下命令进行Linux平台的自动安装：
+<br />
+  <code>curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v</code>
+<br />
+<img src="adguard.png" alt="adguard">
+<br />
+  安装后使用终端的浏览器登陆服务器的3000端口进行设置。此处给出个人使用的黑名单列表。
+<br /></p>
+<table>
+	<tr>
+		<th>名称</th>
+		<th>URL</th>
+	</tr>
+	<tr>
+		<th>MalwareDomainList</th>
+		<th>https://www.malwaredomainlist.com/hostslist/hosts.txt</th>
+	</tr>
+	<tr>
+		<th>Anti-AD easylist</th>
+		<th>https://anti-ad.net/easylist.txt</th>
+	</tr>
+	<tr>
+		<th>Fanboy’s Annoyances List</th>
+		<th>https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt</th>
+	</tr>
+</table>
+<br />
+&emsp;&emsp;另，今日配置时发现曾经使用的列表中所有托管于Gitee平台的列表皆失效；不知为何，无奈，仅能将其移除。
+<br />
+<p><img src="adguard-overview.png" alt="adguard-overview">
+<br />
+  在DHCP服务中配置该服务器为默认的DNS服务器即可使用AD Guard Home服务。至此，服务配置完成。</p>
+<br />
+<br />
+<h3>四、结</h3>
+<hr>
+<p>  本项目基于x86平台，使用Red Hat Enterprise Linux操作系统搭建了开源、自由的软件服务器，并因此构建了完整的家用网络环境。实现了家庭网络的自由化，极大程度上避免了隐私的泄漏；为各种网络系统的开源、自由的实现提供了一种可行的服务。</p>
+<br />
+<br />
+<p><i>Sophiel</i>
+<br />
+<i>二〇二二年冬月十八 日曜日</i></p>
+<!--more--></div>
+
+  
+  
+<div class="mt-8 flex flex-wrap gap-2 text-sm">
+  <a
+    href="/tags/network/"
+    class="px-3 py-1 rounded-full bg-my-ultramarine/10 text-my-ultramarine hover:bg-my-ultramarine/20 transition"
+  >
+    #Network
+  </a>
+  <a
+    href="/tags/devops/"
+    class="px-3 py-1 rounded-full bg-my-ultramarine/10 text-my-ultramarine hover:bg-my-ultramarine/20 transition"
+  >
+    #DevOps
+  </a>
+</div>
+
+</article>
+</main>
+    </div>
+  </body>
+</html>

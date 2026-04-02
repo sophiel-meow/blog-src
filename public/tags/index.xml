@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>标签 on 無何有之鄉</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in 标签 on 無何有之鄉</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jun 2025 16:59:14 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptography</title>
+      <link>http://localhost:1313/tags/cryptography/</link>
+      <pubDate>Wed, 18 Jun 2025 16:59:14 +0800</pubDate>
+      <guid>http://localhost:1313/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPG</title>
+      <link>http://localhost:1313/tags/gpg/</link>
+      <pubDate>Wed, 18 Jun 2025 16:59:14 +0800</pubDate>
+      <guid>http://localhost:1313/tags/gpg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minutes</title>
+      <link>http://localhost:1313/tags/minutes/</link>
+      <pubDate>Wed, 18 Jun 2025 16:59:14 +0800</pubDate>
+      <guid>http://localhost:1313/tags/minutes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kernel</title>
+      <link>http://localhost:1313/tags/kernel/</link>
+      <pubDate>Sat, 17 Dec 2022 16:13:01 +0800</pubDate>
+      <guid>http://localhost:1313/tags/kernel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Sat, 17 Dec 2022 16:13:01 +0800</pubDate>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>http://localhost:1313/tags/devops/</link>
+      <pubDate>Sun, 11 Dec 2022 17:28:41 +0800</pubDate>
+      <guid>http://localhost:1313/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network</title>
+      <link>http://localhost:1313/tags/network/</link>
+      <pubDate>Sun, 11 Dec 2022 17:28:41 +0800</pubDate>
+      <guid>http://localhost:1313/tags/network/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithm</title>
+      <link>http://localhost:1313/tags/algorithm/</link>
+      <pubDate>Thu, 29 Sep 2022 10:44:39 +0800</pubDate>
+      <guid>http://localhost:1313/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>http://localhost:1313/tags/math/</link>
+      <pubDate>Thu, 29 Sep 2022 10:44:39 +0800</pubDate>
+      <guid>http://localhost:1313/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Octave</title>
+      <link>http://localhost:1313/tags/octave/</link>
+      <pubDate>Thu, 29 Sep 2022 10:44:39 +0800</pubDate>
+      <guid>http://localhost:1313/tags/octave/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Embedded System</title>
+      <link>http://localhost:1313/tags/embedded-system/</link>
+      <pubDate>Fri, 12 Aug 2022 13:23:26 +0800</pubDate>
+      <guid>http://localhost:1313/tags/embedded-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FIDO&amp;CTAP</title>
+      <link>http://localhost:1313/tags/fidoctap/</link>
+      <pubDate>Fri, 12 Aug 2022 13:23:26 +0800</pubDate>
+      <guid>http://localhost:1313/tags/fidoctap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MCU &amp; Boards</title>
+      <link>http://localhost:1313/tags/mcu--boards/</link>
+      <pubDate>Fri, 12 Aug 2022 13:23:26 +0800</pubDate>
+      <guid>http://localhost:1313/tags/mcu--boards/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Fri, 12 Aug 2022 13:23:26 +0800</pubDate>
+      <guid>http://localhost:1313/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Evaluation</title>
+      <link>http://localhost:1313/tags/evaluation/</link>
+      <pubDate>Wed, 13 Jul 2022 16:03:51 +0800</pubDate>
+      <guid>http://localhost:1313/tags/evaluation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IPhone</title>
+      <link>http://localhost:1313/tags/iphone/</link>
+      <pubDate>Wed, 13 Jul 2022 16:03:51 +0800</pubDate>
+      <guid>http://localhost:1313/tags/iphone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/tags/android/</link>
+      <pubDate>Wed, 19 Aug 2020 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flashing</title>
+      <link>http://localhost:1313/tags/flashing/</link>
+      <pubDate>Wed, 19 Aug 2020 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/flashing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Repairing</title>
+      <link>http://localhost:1313/tags/repairing/</link>
+      <pubDate>Wed, 19 Aug 2020 12:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/repairing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>http://localhost:1313/tags/css/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>http://localhost:1313/tags/html/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/tags/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Themes</title>
+      <link>http://localhost:1313/tags/themes/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/themes/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
