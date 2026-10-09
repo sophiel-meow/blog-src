@@ -3,25 +3,10 @@
   lang="en-us"
   dir="ltr"
 >
-   <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><script
-  id="MathJax-script"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
-></script>
-<script>
-  MathJax = {
-    tex: {
-      displayMath: [
-        ["\\[", "\\]"],
-        ["$$", "$$"],
-      ], 
-      inlineMath: [["\\(", "\\)"]], 
-    },
-    loader: {
-      load: ["ui/safe"],
-    },
-  };
-</script>
+   <link rel="stylesheet" href="/js/katex/katex.min.css" />
+<script defer src="/js/katex/katex.min.js"></script>
+<script defer src="/js/katex/contrib/auto-render.min.js"></script>
+<script defer src="/js/katex-init.js"></script>
   <head>
   <meta charset="utf-8" />
   <title>
@@ -33,8 +18,7 @@
   />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
-  <script src="https://cdn.jsdelivr.net/npm/google-fonts@1.0.0/index.min.js"></script>
+  <link rel="jslicense" href="/javascript-licenses.html" />
 
   
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,35 +37,24 @@
   />
 
   
-<link rel="stylesheet" href="/css/main.css" />
+<link
+  rel="stylesheet"
+  href="/css/main.min.5e4f1ff20ef2561bac5094abbf580ff971aa639926d8b3c51692b62e224ed9b9.css"
+  integrity="sha256-Xk8f8g7yVhusUJSrv1gP&#43;XGqY5km2LPFFpK2LiJO2bk="
+  crossorigin="anonymous"
+/>
  
-      <script src="/js/main.js"></script>
+
 
 </head>
 
   <body class="bg-[#F8FBFF] text-gray-800 font-serif">
     
     
-
-    
-    <header class="md:hidden fixed top-0 left-0 right-0 z-40 bg-[#F8FBFF] border-b border-[#a0c4ff] px-4 py-3 flex items-center justify-between">
-      <span class="font-bold text-xl text-my-ultramarine">無何有之鄉</span>
-      <button id="menu-toggle" class="text-my-ultramarine text-xl" aria-label="打开菜单">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-    </header>
-
-    
-    <div id="menu-overlay" class="md:hidden fixed inset-0 bg-black/40 z-40 hidden"></div>
-
     <div class="flex min-h-screen max-w-screen-2xl mx-auto">
       
       <aside
-  id="sidebar"
-  class="w-64 px-4 py-8 flex flex-col justify-between h-screen overflow-y-auto bg-[#F8FBFF]
-         fixed md:sticky top-0 left-0 z-50
-         -translate-x-full md:translate-x-0
-         transition-transform duration-300"
+  class="w-64 px-4 py-8 flex flex-col justify-between h-screen sticky top-0"
 >
   <div class="space-y-6">
     <div>
@@ -152,7 +125,7 @@
 
   <footer class="text-xs text-gray-400 pt-6 border-t border-gray-200 mt-12">
     <p class="leading-relaxed">
-      © 2013-2025 無何有之鄉 <br />
+      © 2013-2026 無何有之鄉 <br />
       <a href="https://creativecommons.org/licenses/by-sa/4.0/"
         >Licensed under CC BY-SA 4.0</a
       ><br />
@@ -163,7 +136,7 @@
 
 
       
-      <main class="flex-1 px-6 py-12 pt-20 md:pt-12">
+      <main class="flex-1 px-6 py-12">
 <section class="max-w-3xl mx-auto pt-6 space-y-6">
   <h1 class="text-2xl font-bold text-my-ultramarine">分类：IPhone</h1>
 
