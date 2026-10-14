@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css": "tailwindcss -i themes/vanilla/assets/css/main.css -o static/css/out.css",
+    "dev": "npm run css -- --watch",
+    "build": "npm run css -- --minify && hugo --minify"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
