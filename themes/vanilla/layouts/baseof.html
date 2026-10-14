@@ -12,12 +12,20 @@
          <div class="absolute inset-0 bg-white/30"></div>
          </div>
     -->
-    <div class="flex min-h-screen max-w-screen-2xl mx-auto">
-      <!-- 左侧栏 -->
+    <div class="flex flex-col md:flex-row min-h-screen max-w-screen-2xl mx-auto">
+      <!-- 左侧栏（手机端为顶部标题栏） -->
       {{ partial "sidebar.html" . }}
 
       <!-- 右侧主内容 -->
-      <main class="flex-1 px-6 py-12">{{ block "main" . }}{{ end }}</main>
+      <main class="flex-1 min-w-0 px-5 pt-2 pb-8 md:px-6 md:py-12">
+        {{ block "main" . }}{{ end }}
+      </main>
+
+      <!-- 手机端：侧边栏的链接与版权移到页底 -->
+      <div class="md:hidden px-5 pb-8">
+        {{ partial "sidebar-links.html" . }}
+        {{ partial "sidebar-footer.html" . }}
+      </div>
     </div>
   </body>
 </html>
