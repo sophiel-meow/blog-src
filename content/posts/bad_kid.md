@@ -901,7 +901,7 @@ I desperately wanted to say something.
 
 I wanted to say:
 
-*Sitting down is not the same thing as laziness.*
+*Crossing leg is not the same thing as laziness.*
 
 I wanted to say:
 
