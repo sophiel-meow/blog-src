@@ -85,7 +85,7 @@ The first time I realised that some of these things might not be entirely true, 
 
 I was still very young then, and had not yet learned to hide such feelings.
 
-## 1. When *the given* no longer holds
+## I. When *the given* no longer holds
 
 “If I weren’t worried about tiring you out, I’d really like to make you run another couple of laps. How can you have no sense of justice at all?”
 
@@ -228,7 +228,7 @@ So, before the silence could settle, I would begin looking for the next thing to
 And that was how I fell down the rabbit hole.
 
 
-## 2. The Land of Nothingness
+## II. The Land of Nothingness
 
 The rabbit hole did not lead only downward.
 
@@ -623,7 +623,7 @@ the fear of being asked to surrender the fact
 
 that I was an individual.
 
-## 3. We Are Human
+## III. We Are Human
 
 In the dream, the first thing I saw,
 
@@ -1005,7 +1005,7 @@ I do not think I would cooperate with that silence quite so easily again.
 
 Because I have become human.
 
-## 4. Science!
+## IV. Science!
 
 Realising all of this did not solve anything in the real world.
 The questions were still there. Time was still moving. The examination would not be postponed simply because I happened to be uncertain about what any of it meant.

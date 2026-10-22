@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = '無何有之鄉'
 theme="vanilla"
 
+disableKinds = ["rss"]
+
 [markup]
   [markup.asciidocExt]
     backend = 'html5'
